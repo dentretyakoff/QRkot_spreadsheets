@@ -23,11 +23,11 @@ class CRUDCharityProject(CRUDBase):
         charity_projects = await session.execute(
             select([
                 CharityProject.name,
-                (func.strftime('%s', CharityProject.close_date)
-                 - func.strftime('%s', CharityProject.create_date)
+                (func.strftime('%s', CharityProject.close_date) -
+                 func.strftime('%s', CharityProject.create_date)
                  ).label('duration_seconds'),
                 CharityProject.description
-                ]).where(
+            ]).where(
                 CharityProject.fully_invested).order_by('duration_seconds'))
 
         return charity_projects.all()
