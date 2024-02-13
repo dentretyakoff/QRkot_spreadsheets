@@ -39,7 +39,7 @@ aiogoogle==4.2.0
         AUTH_URI=https://accounts.google.com/o/oauth2/auth
         TOKEN_URI=https://oauth2.googleapis.com/token
         AUTH_PROVIDER_X509_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
-        CLIENT_X509_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/practicum%40cool-keel-413609.iam.gserviceaccount.com
+        CLIENT_X509_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/your_service_account%40test-test-000111.iam.gserviceaccount.com
         EMAIL=your_email@gmail.com
     ```
 - Примените миграции `alembic upgrade head`
