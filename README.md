@@ -43,6 +43,7 @@ aiogoogle==4.2.0
         EMAIL=your_email@gmail.com
     ```
 - Примените миграции `alembic upgrade head`
+
 `*Для получения параметров подключения к Google-API необходимо произвести настройки в Google Cloud Platform и получить JSON-файл с ключом доступа к сервисному аккаунту.` [Подробная инструкция](https://developers.google.com/sheets/api/quickstart/python?hl=en)
 
 ## Использование
