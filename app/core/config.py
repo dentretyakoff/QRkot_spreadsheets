@@ -47,3 +47,5 @@ SHEET_NAME = 'Лист1'
 ROW_COUNT = 100
 COLUMN_COUNT = 11
 TABLE_RANGE = 'A1:E30'  # диапазон ячеек, в которые нужно внести изменения
+SHEETS_API_VERSION = 'v4'
+DRIVE_API_VERSION = 'v3'

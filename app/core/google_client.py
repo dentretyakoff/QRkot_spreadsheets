@@ -3,9 +3,7 @@
 from aiogoogle import Aiogoogle
 from aiogoogle.auth.creds import ServiceAccountCreds
 
-from app.core.config import SCOPES
-from app.core.config import settings
-
+from app.core.config import SCOPES, settings
 
 INFO = {'type': settings.type,
         'project_id': settings.project_id,
